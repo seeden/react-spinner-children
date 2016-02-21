@@ -1,6 +1,6 @@
 # React spin
 
-A React component wrapper for [spin.js](http://fgnass.github.io/spin.js/) with support for children. 
+A React component wrapper for [spin.js](http://fgnass.github.io/spin.js/) with support for children.
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -22,7 +22,7 @@ Star this project on [GitHub][github-url].
 
 ```js
 import React, { Component } from 'react';
-import Spinner from 'react';
+import Spinner from 'react-spinner-children';
 
 export default class Example extends Component {
   render() {
