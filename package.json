@@ -1,6 +1,6 @@
 {
   "name": "react-spinner-children",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React component wrapper for spin.js with support for children",
   "author": {
     "name": "Zlatko Fedor",

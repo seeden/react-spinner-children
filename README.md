@@ -1,6 +1,7 @@
 # React spin
 
 A React component wrapper for [spin.js](http://fgnass.github.io/spin.js/) with support for children.
+You can use it in your isomorphic application(server rendering) too.
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
