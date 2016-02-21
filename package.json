@@ -1,6 +1,6 @@
 {
   "name": "react-spinner-children",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React component wrapper for spin.js with support for children",
   "author": {
     "name": "Zlatko Fedor",
@@ -14,12 +14,11 @@
   "keywords": [
     "react",
     "react-component",
-    "react-form",
-    "form",
-    "controlled",
-    "input",
-    "select",
-    "react-select"
+    "spin",
+    "spin.js",
+    "spinner",
+    "loading",
+    "children"
   ],
   "private": false,
   "license": "MIT",
