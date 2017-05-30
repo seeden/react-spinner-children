@@ -1,9 +1,5 @@
 import React from 'react';
-import should from 'should';
-import Spinner from '../dist';
-import { renderJSX } from '../utils/tester';
-import { findDOMNode } from 'react-dom';
-import TestUtils from 'react-addons-test-utils';
+import Spinner from '../src';
 
 describe('Spinner', () => {
   it('should be able to create simple instance', () => {
