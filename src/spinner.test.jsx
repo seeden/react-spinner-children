@@ -1,25 +1,27 @@
 import React from 'react';
+import { mount } from 'enzyme';
 import Spinner from '../src';
 
 describe('Spinner', () => {
   it('should be able to create simple instance', () => {
-    const node = renderJSX(
+    const wrapper = mount((
       <Spinner loaded={false} >
         <span>loaded</span>
       </Spinner>
-    );
+    ));
 
-    const span = findDOMNode(node).querySelector('span');
-    should(span).equal(null);
+    // validate video
+    expect(wrapper.find('span').length).toBe(0);
   });
 
   it('should be able to create loaded instance', () => {
-    const node = renderJSX(
-      <Spinner loaded={true} >
+    const wrapper = mount((
+      <Spinner loaded>
         <span>loaded</span>
       </Spinner>
-    );
+    ));
 
-    findDOMNode(node).innerHTML.should.equal('loaded');
+    // validate video
+    expect(wrapper.find('span').length).toBe(1);
   });
 });
